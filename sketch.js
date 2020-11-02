@@ -300,7 +300,7 @@ if(gameState === PLAY){
     }
     if( (touches.length > 0) ) {
       // plr.addImage( "running",jump_img);
-       plr.velocityX = -16 ;
+       plr.velocityY = -16 ;
        touches =[];}
   /*if(keyDown( RIGHT_ARROW)){
     
@@ -577,7 +577,7 @@ function reset() {
   objGroup.setVisibleEach(true);
   plr.x = 350;
   plr.velocityX = 0;
-  plr.y = 460;
+  plr.y = height-240;
   ship.x = 500;
   land1.x = 400;
   land2.x = 530;
