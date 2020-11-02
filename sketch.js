@@ -262,7 +262,7 @@ function setup() {
   
   title = createElement('h2');
   title.html("Pirate Runner");
-  title.position(displayWidth / 2 - 170,height-720);
+  title.position(width/2,height-720);
   
   Button = createButton("Play Sound");
   Button.mousePressed(togglePlay);
