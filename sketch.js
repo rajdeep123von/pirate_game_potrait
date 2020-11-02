@@ -161,8 +161,8 @@ function setup() {
   ship.velocityX = -3;
   //ship.lifetime = 350;
   
-  plr = createSprite(350,height-240);
-  plr.addAnimation( "running",idle_img);
+  plr = createSprite(350,height-140);
+  plr.addAnimation( "running",run_img);
   plr.scale = 2;
 
   land10 = createSprite(1700,height-50);
@@ -244,10 +244,10 @@ function setup() {
   
 
   
-  gameover = createSprite(((896/2)*3)/2,height-390,20,20);
+  gameover = createSprite(width/2,height-390,20,20);
   gameover.addImage(gameoverimage);
   
-  restart = createSprite(((896/2)*3)/2,height-70,20,20);
+  restart = createSprite(width/2,height-70,20,20);
   restart.addImage(restartimage);
 
   
