@@ -161,7 +161,7 @@ function setup() {
   ship.velocityX = -3;
   //ship.lifetime = 350;
   
-  plr = createSprite(350,460);
+  plr = createSprite(350,height-240);
   plr.addAnimation( "running",idle_img);
   plr.scale = 2;
 
